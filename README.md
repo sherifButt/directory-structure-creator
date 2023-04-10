@@ -23,7 +23,7 @@ The script takes two arguments:
 - `path/to/structure.[json|yml]` is the path to the JSON or YAML file that contains the directory structure to be created.
 - `path/to/destination/folder` is the path to the folder where the directory structure will be created. If this argument is not provided, the directory structure will be created in the current working directory.
 
-The script will create the directory structure recursively based on the JSON or YAML file provided. If a file in the directory structure has a `.json` or `.yml` extension, the file will be filled with the JSON or YAML value pair if the value is not null. If a file in the directory structure has a `.ico`, `.png`, or `.psd` extension, the file will be skipped.
+The script will create the directory structure recursively based on the JSON or YAML file provided. If a file in the directory structure has a `.json` or `.yml` extension, the file will be filled with the JSON or YAML value pair if the value is not null.
 
 ## Examples
 
@@ -38,6 +38,12 @@ To create a directory structure from a `structure.yml` file in the `~/Documents`
 ```
 node script.js ~/Documents/structure.yml my-project
 ```
+
+to run this script globally run:
+```
+npm link
+```
+Now you can use the command create-structure to run the script. from any where.
 
 
 ## License

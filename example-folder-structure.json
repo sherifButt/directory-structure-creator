@@ -1,0 +1,163 @@
+{
+  "artistoFlow/": {
+    "frontend/": {
+      "public/": {
+        "favicon.ico": "data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+        "index.html": "<!DOCTYPE html> <html lang='en'> <head> <meta charset='utf-8' /> <link rel='icon' href='%PUBLIC_URL%/favicon.ico' /> <meta name='viewport' content='width=device-width, initial-scale=1' /> <meta name='theme-color' content='#000000' /> <meta name='description' content='Web site created using create-react-app' /> <link rel='apple-touch-icon' href='%PUBLIC_URL%/logo192.png' /> <link rel='manifest' href='%PUBLIC_URL%/manifest.json' /> <title>React App</title> </head> <body> <noscript>You need to enable JavaScript to run this app.</noscript> <div id='root'></div> </body> </html>"
+      },
+      "src/": {
+        "components/": {
+          "common/": {
+            "Button.jsx": null,
+            "Input.jsx": null,
+            "...": null
+          },
+          "dashboard/": {
+            "Dashboard.jsx": null,
+            "DashboardSidebar.jsx": null,
+            "DashboardContent.jsx": null,
+            "...": null
+          },
+          "imageUploader/": {
+            "ImageUploader.jsx": null,
+            "ImageCard.jsx": null,
+            "...": null
+          },
+          "...": null
+        },
+        "pages/": {
+          "login/": {
+            "Login.jsx": null
+          },
+          "register/": {
+            "Register.jsx": null
+          },
+          "subscription/": {
+            "Subscription.jsx": null
+          },
+          "profile/": {
+            "Profile.jsx": null
+          },
+          "...": null
+        },
+        "services/": {
+          "api/": {
+            "authService.js": null,
+            "subscriptionService.js": null,
+            "imageService.js": null,
+            "contentGenerationService.js": null,
+            "marketplaceIntegrationService.js": null
+          },
+          "authService/": {
+            "auth.js": null,
+            "...": null
+          }
+        },
+        "store/": {
+          "slices/": {
+            "authSlice.js": null,
+            "subscriptionSlice.js": null,
+            "imageSlice.js": null,
+            "...": null
+          },
+          "index.js": null
+        },
+        "styles/": {
+          "base.css": null,
+          "components.css": null,
+          "utilities.css": null,
+          "tailwind.config.js": null
+        },
+        "utils/": {
+          "validation.js": null,
+          "...": null
+        },
+        "index.js": null
+      },
+      ".env": null,
+      ".gitignore": null,
+      "package.json": null,
+      "README.md": null
+    },
+    "backend/": {
+      "services/": {
+        "authService/": {
+          "controllers/": {
+            "authController.js": null
+          },
+          "models/": {
+            "User.js": null
+          },
+          "routes/": {
+            "authRoutes.js": null
+          },
+          "index.js": null
+        },
+        "subscriptionService/": {
+          "controllers/": {
+            "subscriptionController.js": null
+          },
+          "models/": {
+            "Subscription.js": null
+          },
+          "routes/": {
+            "subscriptionRoutes.js": null
+          },
+          "index.js": null
+        },
+        "imageService/": {
+          "controllers/": {
+            "imageController.js": null
+          },
+          "models/": {
+            "Image.js": null
+          },
+          "routes/": {
+            "imageRoutes.js": null
+          },
+          "index.js": null
+        },
+        "contentGenerationService/": {
+          "controllers/": {
+            "contentGenerationController.js": null
+          },
+          "models/": {
+            "GeneratedContent.js": null
+          },
+          "routes/": {
+            "contentGenerationRoutes.js": null
+          },
+          "index.js": null
+        },
+        "marketplaceIntegrationService/": {
+          "controllers/": {
+            "marketplaceIntegrationController.js": null
+          },
+          "models/": {
+            "Integration Settings.js": null
+          },
+          "routes/": {
+            "marketplaceIntegrationRoutes.js": null
+          },
+          "index.js": null
+        }
+      },
+      "shared/": {
+        "middleware/": {
+          "isAuthenticated.js": null,
+          "isAdmin.js": null,
+          "...": null
+        },
+        "utils/": {
+          "emailService.js": null,
+          "errorHandling.js": null,
+          "...": null
+        }
+      },
+      ".env": null,
+      ".gitignore": null,
+      "package.json": null,
+      "README.md": null
+    }
+  }
+}
