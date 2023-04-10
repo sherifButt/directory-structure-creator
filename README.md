@@ -25,6 +25,14 @@ The script takes two arguments:
 
 The script will create the directory structure recursively based on the JSON or YAML file provided. If a file in the directory structure has a `.json` or `.yml` extension, the file will be filled with the JSON or YAML value pair if the value is not null.
 
+## Run Globaly
+
+To run this script globally run:
+```
+npm link
+```
+Now you can use the command create-structure to run the script. from any where.
+
 ## Examples
 
 To create a directory structure from a `structure.json` file in the current directory and save it to a `my-app` directory in the current directory, run:
@@ -38,12 +46,6 @@ To create a directory structure from a `structure.yml` file in the `~/Documents`
 ```
 node script.js ~/Documents/structure.yml my-project
 ```
-
-to run this script globally run:
-```
-npm link
-```
-Now you can use the command create-structure to run the script. from any where.
 
 
 ## License
