@@ -1,0 +1,3 @@
+// fill this file with basic git ignore rules for nodejs project
+.env
+node_modules

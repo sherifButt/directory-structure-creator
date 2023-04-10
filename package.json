@@ -1,0 +1,19 @@
+{
+  "name": "yaml-structure-creator",
+  "version": "1.0.0",
+  "description": "This script is a command-line tool that creates a folder structure from a YAML file. It reads the input YAML file, which contains the desired folder structure, and creates the specified folders and subfolders in the current working directory or a specified target directory.",
+  "main": "create-structure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "yaml": "^2.2.1"
+  },
+  "bin": {
+    "create-structure": "./create-structure.js"
+  }
+}
